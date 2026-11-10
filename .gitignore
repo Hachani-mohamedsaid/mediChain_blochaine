@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+
+# Build / cache
+dist/
+dist-ssr/
+build/
+coverage/
+*.tsbuildinfo
+.cache/
+**/artifacts/
+**/cache/
+.hardhat/
+
+# Runtime data
+backend/data/
+backend/uploads/
+uploads/
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.local
